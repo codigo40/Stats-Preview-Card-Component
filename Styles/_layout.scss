@@ -1,0 +1,69 @@
+.main{
+
+   &__card{
+      background-color: $Dark-desaturated-blue-card-background;
+      width: 20.6rem;
+      border-radius: .5rem;
+   }
+&__card-img{
+
+&--responsive{
+   width: 20.6rem;
+   height: 15rem;
+   border-radius: .5rem .5rem 0 0 ;
+}
+&--filter{
+   width: 20.6rem;
+   height: 15rem;
+   position: absolute;
+   top: 0;
+   background-color:hsla(277, 72%, 48%, 0.5) ;
+}
+}
+
+&__card-info-title{
+   margin-top: 2rem;
+   color:$White-main-heading-stats;
+   font-family: $Font-family-1;
+   font-size: 1.7rem;
+   padding: 0 2rem;
+   &--span{
+      color:$Soft-violet-accent ;
+   }
+}
+&__card-info-paragraph{
+   color: $Slightly-transparent-white-main-paragraph;
+   font-family: $Font-family-1;
+   font-size: $Font-size;
+   line-height: 1.5rem;
+   margin-top: 1rem;
+   padding: 0 2.2rem;
+   letter-spacing: .3px;
+}
+
+&__card-info-data{
+text-transform: uppercase;
+margin-top: 2.8rem;
+font-family: $Font-family-1;
+&--item{
+    display: flex;
+    flex-direction: column;  
+    }
+&--number{
+   font-size: 1.3rem;
+   margin-bottom: .5rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   color:$White-main-heading-stats;
+   font-family: $Font-family-1;
+}
+&--detail{
+font-size: .7rem;
+letter-spacing: 2px;
+color:$Slightly-transparent-white-stat-headings ;
+margin-bottom: 2rem;
+
+}
+}
+}
+
